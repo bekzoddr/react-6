@@ -1,0 +1,53 @@
+.sub__navbar{
+    position: relative;
+    top: 65px;
+    background-color: white;
+    padding: 20px 200px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    .logo{
+        display: flex;
+        align-items: center;
+    }
+    .search{
+        display: flex;
+        align-items: center;
+        input{
+            padding: 12px 290px 12px 16px;
+            border: 1px solid rgb(100, 180, 150);
+            border-radius: 5px 0 0 5px;
+        }
+        select{
+            padding: 12px 16px;
+            border-left: none;
+            border: 1px solid rgb(100, 180, 150);
+        }
+        button{
+            padding: 8px 10px;
+            color: white;
+            background-color: red;
+            font-size: 22px;
+            border-radius: 0 5px 5px 0;
+        }
+    }
+    .icons{
+        display: flex !important;
+        align-items: center;
+        gap: 30px;
+        .task{
+            display: flex;
+            align-items: center;
+            gap: 9px;
+            h4{
+                color: rgb(0, 0, 0);
+                font-size: 15px;
+                font-weight: 500;
+                line-height: 15px;
+                letter-spacing: 0.48px;
+                text-align: left;
+            }
+        }
+    }
+}
