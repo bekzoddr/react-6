@@ -136,3 +136,24 @@
     }
 
 }
+.categories{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    li{
+        color: black;
+        font-family: poppins;
+        font-size: 18px;
+        font-weight: 600;
+        transition: 0.5s ease-in;
+        cursor: pointer;
+        :active{
+            color: blue;
+        }
+    }
+}
+.see__more{
+display: flex;
+justify-content: center;
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.product__check{
+    display: flex;
+    flex-direction: column;
+    .task{
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        justify-content: space-between;
+        .check{
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+      
+     }
+}
+.box{
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    background: rgb(247, 247, 248);
+    max-width: 306px;
+    padding: 26px;
+}
+  .name {
+      color: rgb(122, 122, 122);
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+      letter-spacing: 0.48px;
+      text-align: left;
+      text-transform: capitalize;
+  }
+.box__title{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 25.6px;
+    letter-spacing: 0.48px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.range{
+    width: 250px;
+}
+.prices{
+color: rgb(0, 0, 0);
+font-family: "Poppins";
+    font-size: 15px;
+    font-weight: 900;
+    line-height: 18px;
+    letter-spacing: 0.48px;
+    text-align: left;
+    span{
+        color: rgb(122, 122, 122);
+    }
+}
+.filter{
+    padding: 12px 22px;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    border: 1px solid rgb(245, 62, 50);
+    border-radius: 5px;
+    background: rgb(245, 62, 50);
+}
+.yellow, .red, .green, .blue {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 5px;
+}
+.checkColor{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    .task, .checkbox{
+        display: flex;
+        gap: 5px;
+        justify-content: space-between;
+    }
+}
+.tasks{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    .task{
+        display: flex;
+        gap: 5px;
+    }
+}
+.blue{
+    background: rgb(108, 158, 255);
+}
+.yellow{
+    background: rgb(222, 222, 68);
+}
+.red{
+    background: rgb(251, 85, 85);
+}
+.green{
+    background: rgb(100, 180, 150);
+}

@@ -1,0 +1,126 @@
+.single__page{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 120px;
+}
+.product__image{
+    display: flex;
+    flex-direction: column;
+}
+.global__img{
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    img{
+        width: 469px;
+        height: 469px;
+        object-fit: contain;
+    }
+}
+.images{
+    display: flex;
+    gap: 13.5px;
+    object-fit: cover;
+    padding-top: 14px;
+    img{
+        width: 83px;
+        height: 83px;
+        }
+}
+.stars{
+    .star{
+        color: rgb(245, 136, 95);
+    }
+}
+.product__info{
+    width: 495px;
+    padding: 5px;
+    h2{
+        color: rgb(43, 43, 45);
+            font-size: 22px;
+            font-weight: 400;
+            line-height: 33px;
+            letter-spacing: 0.48px;
+            text-align: left;
+    }
+    p{
+        color: rgb(122, 122, 122);
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24.5px;
+            letter-spacing: 0.48px;
+            text-align: left;
+    }
+}
+.rating{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.types{
+    display: flex;
+    flex-direction: column;
+    .type{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        h3{
+            color: rgb(122, 122, 122);
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            letter-spacing: 0.48px;
+            text-align: left;
+            text-transform: capitalize;
+        }
+        p{
+            color: rgb(122, 122, 122);
+            font-family: Poppins;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24.5px;
+            letter-spacing: 0.48px;
+            text-align: left;
+        }
+    }
+}
+.product__price{
+    margin-top: 50px;
+    display: flex;
+    gap: 5px;
+    h1{
+        color: rgb(245, 62, 50);
+        font-family: Poppins;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28.01px;
+        letter-spacing: 0.48px;
+        text-align: left;
+    }
+}
+.amount{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    .buttons{
+        gap: 5px;
+        button{
+            padding: 5px 10px;
+            border: 1px solid rgba(203, 199, 199, 0.637);
+            border-radius: 5px;
+            background: rgb(255, 255, 255);
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 12px;
+            letter-spacing: 0.48px;
+            text-align: left;
+            transition: 0.5s ;
+            &:hover{
+                transition: 0.5s ;
+                border: 1px solid rgb(245, 62, 50);
+                background: rgb(245, 62, 50);
+                color: rgb(255, 255, 255);
+            }
+        }
+    }
+}

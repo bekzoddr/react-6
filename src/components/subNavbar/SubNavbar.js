@@ -14,7 +14,7 @@ function SubNavbar() {
       </div>
       <div className="search">
         <input type="text" placeholder="Search For items..." />
-        <select>
+        <select id="mySelect">
           <option value="1">All Categories</option>
         </select>
         <button>

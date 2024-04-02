@@ -6,6 +6,11 @@
 
     .card__box {
         border-radius: 10px;
+        transition: 0.5s all ease-in;
+        &:hover{
+            box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+            transition: 0.5s all ease-in;
+        }
 
         img {
             width: 450px;

@@ -9,7 +9,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="*" element={<NotFound />} /> */}
+        <Route path="/singlePage/:id" element={<SingleRoute />} />
       </Routes>
     </div>
   );
