@@ -5,6 +5,8 @@ import { IoSearchOutline } from "react-icons/io5";
 import { IoCartOutline } from "react-icons/io5";
 import person from "../../assets/images/person.svg";
 import heart from "../../assets/images/heart.svg";
+import { Link } from "react-router-dom";
+import Login from "../../pages/login/Login";
 function SubNavbar() {
   return (
     <div className="sub__navbar">
@@ -23,7 +25,9 @@ function SubNavbar() {
       </div>
       <div className="icons">
         <div className="task">
-          <img src={person} alt="" />
+          <Link to={"/Login"}>
+            <img src={person} alt="" />
+          </Link>
           <h4>Account</h4>
         </div>
         <div className="task">

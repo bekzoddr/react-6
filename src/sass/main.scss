@@ -16,18 +16,6 @@ body{
     font-family: "Quicksand", sans-serif;
     overflow-x: hidden;
 }
-.dark {
-    background-color: #000;
-    color: #ffffff;
-}
-.toggle-button{
-    border: none !important;
-    background-color: #FFFFFF;
-    .iconDark, .iconLight{
-        width: 30px;
-        height: 30px;
-    }
-}
 .container{
     width: 100vw;
     margin: 0 auto;
@@ -107,3 +95,4 @@ body{
 @import url("./components/loading.scss");
 @import url("./pages/single_route.scss");
 @import url("./components/single_page_box.scss");
+@import url("./pages/login.scss")

@@ -1,0 +1,65 @@
+.login{
+    margin-top: 150px;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo{
+    margin:24px 0 0 44px;
+}
+.email, .password{
+    color: rgb(68, 68, 68);
+    font-family: Segoe UI;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 10px 0;
+}
+.nameText{
+    width: 338px;
+    height: 44.38px;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+}
+.remember{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    margin: 25px 0;
+
+}
+.checkPassword{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.loginBtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 195px;
+    button{
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 16.8px;
+        letter-spacing: 0%;
+        text-align: center;
+        text-transform: capitalize;
+        padding: 12px 21px;
+        border-radius: 5px;
+        background: rgb(245, 62, 50);
+    }
+}
